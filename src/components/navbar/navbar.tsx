@@ -9,6 +9,7 @@ export function Navbar() {
         <Image src="/ramboll.svg.png" alt="me" width="162" height="33" />
       </Link>
       <div>To do app</div>
+      <h1>Moje sve</h1>
     </header>
   );
 }
