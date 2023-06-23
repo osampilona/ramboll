@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  margin: 15px;
+}
+
+.terms {
+  color: #009df0;
+}
+
+.line {
+  width: 90%;
+  color: #1a202c;
+  opacity: 0.3;
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .container {
+    gap: 30px;
+    margin: 15px;
+  }
+}
+
+/* Bigger Desktop */
+@media (min-width: 1121px) {
+  .container {
+    gap: 30px;
+    margin: 15px;
+  }
+}
