@@ -1,0 +1,21 @@
+/* Mobile */
+
+.title {
+  display: flex;
+  font-size: 18px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.title span {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+}
+
+/* Bigger Desktop */
+@media (min-width: 1121px) {
+}
