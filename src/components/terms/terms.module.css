@@ -13,12 +13,6 @@
   font-size: small;
 }
 
-.line {
-  width: 90%;
-  color: #1a202c;
-  opacity: 0.3;
-}
-
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .container {

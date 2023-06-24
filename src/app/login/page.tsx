@@ -1,14 +1,16 @@
-import Hero from "@/components/hero/hero";
 import styles from "../page.module.css";
 import { Terms } from "@/components/terms/terms";
+import Hero from "@/components/hero/hero";
 import { MainContainer } from "@/components/mainContainer/mainContainer";
 
-export default function Register() {
+export const LoginPage: React.FC = () => {
   return (
     <main className={styles.main}>
-      <Hero page="register" />
-      <MainContainer page="register" />
+      <Hero page="login" />
+      <MainContainer page="login" />
       <Terms />
     </main>
   );
-}
+};
+
+export default LoginPage;

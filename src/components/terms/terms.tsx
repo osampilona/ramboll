@@ -1,5 +1,6 @@
 import styles from "@/components/terms/terms.module.css";
 import Link from "next/link";
+import { Line } from "../line/line";
 
 export function Terms() {
   return (
@@ -7,7 +8,7 @@ export function Terms() {
       <Link className={styles.terms} href="">
         Terms & Conditions
       </Link>
-      <hr className={styles.line} />
+      <Line />
     </div>
   );
 }

@@ -34,12 +34,6 @@
   margin-top: 20px;
 }
 
-.link {
-  color: #1a202c;
-  padding-top: 10px;
-  font-size: small;
-}
-
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .container {
