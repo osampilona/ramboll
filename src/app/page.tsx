@@ -3,8 +3,8 @@
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import { ProfileInfo } from "@/components/profileInfo/profileInfo";
-import styles from "./page.module.css";
 import { MainContainer } from "@/components/mainContainer/mainContainer";
+import styles from "./page.module.css";
 
 //PROFILE PAGE
 const isUserLoggedIn = true;
@@ -15,7 +15,7 @@ export const ProfilePage: React.FC = () => {
       console.log("components: ", ProfileInfo);
       return (
         <main className={styles.profile}>
-          <ProfileInfo />
+          <ProfileInfo page={"profile"} />
           <MainContainer page={"profile"} />
         </main>
       );

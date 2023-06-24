@@ -9,10 +9,16 @@ const CtaButton: React.FC<PageRoute> = ({ page }) => {
         <button className={styles.button}>Log in</button>
       </Link>
     );
-  } else {
+  } else if (page === "register") {
     return (
       <Link href="/login">
         <button className={styles.button}>Register</button>
+      </Link>
+    );
+  } else if (page === "edit") {
+    return (
+      <Link href="/">
+        <button className={styles.button}>Confirm</button>
       </Link>
     );
   }
