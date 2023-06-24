@@ -1,0 +1,40 @@
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #009df0;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.plus {
+  height: 70px;
+  width: 70px;
+  position: relative;
+}
+
+.horizontal,
+.vertical {
+  position: absolute;
+  background-color: #f9f9f7;
+  border-radius: 25px;
+}
+
+.vertical {
+  height: 9px;
+  width: 70px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.horizontal {
+  height: 9px;
+  width: 70px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

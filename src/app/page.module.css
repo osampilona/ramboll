@@ -9,6 +9,17 @@
   margin: 10px 0;
 }
 
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 0 30px;
+  height: 80vh;
+  margin: 10px 0;
+  gap: 30px;
+}
+
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
 }

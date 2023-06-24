@@ -1,13 +1,13 @@
 import Hero from "@/components/hero/hero";
 import styles from "../page.module.css";
-import LoginForm from "@/components/loginForm/loginForm";
 import { Terms } from "@/components/terms/terms";
+import { MainContainer } from "@/components/mainContainer/mainContainer";
 
 export default function Register() {
   return (
     <main className={styles.main}>
       <Hero page="register" />
-      <LoginForm page="register" />
+      <MainContainer page="register" />
       <Terms />
     </main>
   );

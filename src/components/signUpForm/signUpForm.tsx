@@ -1,13 +1,12 @@
 import CtaButton from "../ctaButton/ctaButton";
-import Link from "next/link";
-import styles from "@/components/loginForm/loginForm.module.css";
 import { PageRoute } from "@/app/types";
 import { LinkButton } from "../linkButton/linkButton";
+import styles from "@/components/signUpForm/signUpForm.module.css";
 
-const LoginForm: React.FC<PageRoute> = ({ page }) => {
+const SignUpForm: React.FC<PageRoute> = ({ page }) => {
   if (page === "login") {
     return (
-      <div className={styles.container}>
+      <>
         <div className={styles.form}>
           <input
             className={styles.input}
@@ -19,11 +18,11 @@ const LoginForm: React.FC<PageRoute> = ({ page }) => {
           <CtaButton page={page} />
           <LinkButton page={page} />
         </div>
-      </div>
+      </>
     );
   } else {
     return (
-      <div className={styles.container}>
+      <>
         <div className={styles.form}>
           <input className={styles.input} placeholder="Full Name"></input>
           <input
@@ -36,9 +35,9 @@ const LoginForm: React.FC<PageRoute> = ({ page }) => {
           <CtaButton page={page} />
           <LinkButton page={page} />
         </div>
-      </div>
+      </>
     );
   }
 };
 
-export default LoginForm;
+export default SignUpForm;
