@@ -14,7 +14,7 @@ export function LoginForm() {
       </div>
       <div className={styles.actions}>
         <CtaButton />
-        <Link className={styles.link} href="">
+        <Link className={styles.link} href="/register">
           or register
         </Link>
       </div>
