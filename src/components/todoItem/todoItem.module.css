@@ -1,0 +1,17 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 30px;
+  margin-bottom: 20px;
+}
+
+.iteminput {
+  border: none;
+  background-color: transparent;
+}
+
+.iteminput:focus {
+  outline: none;
+}
